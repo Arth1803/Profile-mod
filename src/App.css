@@ -1,0 +1,147 @@
+body{
+  background-color: white;
+}
+
+#root{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.search-filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.profile-list{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-card{
+  width: fill;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background: #F0F0F0;
+}
+.profile-card>.card-des{
+  display: flex;
+  gap: 16px;
+}
+.profile-card>.card-des>img{
+  height: 72px;
+  width: 72px;
+}
+
+.profile-card>.card-des>.card-title{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.profile-card>.card-des>.card-title>h3, .profile-card>.card-des>.card-title>p{
+  margin: 0;
+  color: grey;
+}
+.profile-card>.card-des>.card-title>h3{
+  color: #1E1E1E;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.profile-list {
+  width: 100% !important; 
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-btn{
+  display: flex;
+  gap: 8px;
+}
+
+.card-btn>.summary-btn{
+  border-radius: 100px;
+  background: linear-gradient(93deg, #AB004A -27.45%, #64009D 76.32%);
+
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding: 12px 24px;
+}
+.card-btn>.Profile-btn{
+  border-radius: 100px;
+  border: 3px solid var(--peermap, #AB004A);
+  background: var(--peermap, linear-gradient(93deg, #AB004A -27.45%, #64009D 76.32%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding: 12px 24px;
+}
+
+
+/* Filter Bar styling */
+.search-filter-bar{
+  width: 100%;
+}
+
+
+.search-filter-bar>input{
+  width: 80%;
+}
+.search-filter-bar>select{
+  width: 20%;
+  height: fill;
+}
+.search-filter-bar>input{
+  margin-right: 10px;
+  padding: 8px;
+  height: 36px;
+  border-radius: 36px;
+  padding-left: 25px;
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 2px solid #474747;
+  background: #F0F0F0;
+}
+.search-filter-bar>select{
+  margin-right: 10px;
+  padding: 12px;
+  height: 52px;
+  border-radius: 36px;
+  padding-left: 25px;
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 2px solid #474747;
+  background: #F0F0F0;
+
+}
